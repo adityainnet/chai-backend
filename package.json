@@ -1,0 +1,15 @@
+{
+  "name": "chai-backand",
+  "version": "1.0.0",
+  "description": "A complete backand project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "chai"
+  ],
+  "author": "Aditya",
+  "license": "ISC"
+}
