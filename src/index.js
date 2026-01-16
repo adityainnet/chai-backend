@@ -1,6 +1,6 @@
-// require('dotenv').config({path:'./env'})
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import app from "./app.js";
 
 dotenv.config(); // ✅ THIS IS ENOUGH
 
@@ -14,6 +14,7 @@ connectDB()
     console.log("Mongo db connection failed !!!", err);
   });
 
+// require('dotenv').config({path:'./env'})
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants";
 /*
